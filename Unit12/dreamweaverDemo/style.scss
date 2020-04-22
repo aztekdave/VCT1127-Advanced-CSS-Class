@@ -1,0 +1,14 @@
+/* Scss Document */
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color:red;
+}
+
+:root {
+  --md-fontSize: 3em;
+}
+
+.container p {
+  font-size: var(--md-fontSize);
+}
